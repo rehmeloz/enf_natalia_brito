@@ -1,0 +1,6 @@
+@enf_natalia_brito.Server_HostAddress = http://localhost:5049
+
+GET {{enf_natalia_brito.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

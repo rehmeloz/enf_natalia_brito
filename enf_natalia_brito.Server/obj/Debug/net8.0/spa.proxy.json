@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:53146",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\Renata\\Documents\\Projetos\\Enf_Natalia_Brito\\enf_natalia_brito\\enf_natalia_brito\\enf_natalia_brito.Server\\..\\enf_natalia_brito.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
