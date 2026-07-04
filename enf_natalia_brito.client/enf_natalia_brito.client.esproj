@@ -12,6 +12,5 @@
     <Folder Include="src\assets\images\" />
     <Folder Include="src\components\sections\About\" />
     <Folder Include="src\components\sections\Testimonials\" />
-    <Folder Include="src\components\sections\Services\" />
   </ItemGroup>
 </Project>

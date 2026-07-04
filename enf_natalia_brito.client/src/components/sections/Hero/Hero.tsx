@@ -28,7 +28,7 @@ function Hero() {
                             href={WHATSAPP_LINK}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-brand-wine text-white font-sans font-semibold text-sm px-6 py-3.5 rounded-full hover:opacity-90 transition-opacity"
+                            className="bg-brand-wine text-white font-sans font-semibold text-sm px-6 py-3.5 rounded-full hover:opacity-90 transition-opacity shadow-md"
                         >
                             Agendar horário
                         </a>
@@ -44,15 +44,15 @@ function Hero() {
                     </div>
                 </div>
 
-                <div className="relative">
-                    <div className="aspect-[4/5] rounded-3xl bg-brand-muted/30 flex items-center justify-center">
+                <div className="relative flex justify-end">
+                    <div className="aspect-[4/5] w-100 rounded-3xl bg-brand-muted/30 flex items-center justify-center">
                         <span className="font-sans text-sm text-brand-text/60">
                             [ Foto aqui ]
                         </span>
                     </div>
 
                     {/* Card flutuante na foto */}
-                    <div className="absolute bottom-6 left-6 bg-white rounded-xl shadow-lg px-5 py-4 max-w-[220px]">
+                    <div className="absolute bottom-6 left-40 bg-white rounded-xl shadow-lg px-5 py-4 max-w-[220px]">
                         <p className="font-sans text-[11px] font-semibold text-brand-wine uppercase tracking-wide mb-1">
                             Clínica Certificada
                         </p>
