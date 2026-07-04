@@ -2,7 +2,7 @@ import type { Service } from "../../../types";
 
 function ServiceCard({ icon: Icon, title, description, features }: Service) {
     return (
-        <div className="bg-brand-bg rounded-2xl p-8">
+        <div className="bg-brand-bg rounded-2xl p-8 w-full sm:w-[calc(50%-12px)] md:w-[calc(33.333%-16px)]">
             <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-6">
                 <Icon className="w-5 h-5 text-brand-wine" />
             </div>

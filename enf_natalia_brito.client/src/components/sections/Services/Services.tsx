@@ -14,7 +14,7 @@ function Services() {
                     </h2>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-6">
+                <div className="flex flex-wrap justify-center gap-6">
                     {services.map((service) => (
                         <ServiceCard key={service.title} {...service} />
                     ))}
