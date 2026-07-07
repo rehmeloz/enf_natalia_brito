@@ -53,7 +53,7 @@ function About() {
                             href={INSTAGRAM_LINK}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-block border border-white/40 text-white font-sans font-semibold text-xs uppercase tracking-wide px-6 py-3 rounded-full hover:bg-white/10 transition-colors">
+                            className="inline-block border border-white/40 text-white font-sans font-semibold text-xs uppercase tracking-wide px-6 py-3 rounded-full hover:bg-white/10 transition-colors shadow-md">
                             Conhecer minha trajetória
                         </a>                  
                 </div>
