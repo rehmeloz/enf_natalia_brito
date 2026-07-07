@@ -19,7 +19,7 @@ function ContactCTA() {
                     href={WHATSAPP_LINK}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-brand-wine text-white font-sans font-semibold text-sm px-7 py-3.5 rounded-full hover:opacity-90 transition-opacity">
+                    className="inline-flex items-center gap-2 bg-brand-wine text-white font-sans font-semibold text-sm px-7 py-3.5 rounded-full hover:opacity-90 transition-opacity shadow-md">
                         <MessageCircle className="w-4 h-4" />
                         Falar pelo WhatsApp
                 </a>
