@@ -1,7 +1,8 @@
 import Header from "./components/layout/Header";
 import Hero from "./components/sections/Hero/Hero";
-import Services from "./components/sections/Services/Services"
-import About from "./components/sections/About/About"
+import Services from "./components/sections/Services/Services";
+import About from "./components/sections/About/About";
+import Testimonials from "./components/sections/Testimonials/Testimonials";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Hero />
             <Services />
             <About />
+            <Testimonials />
         </div>
     );
 }
