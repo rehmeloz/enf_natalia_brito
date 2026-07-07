@@ -6,3 +6,9 @@ export interface Service {
     description: string;
     features: string[];
 }
+
+export interface Testimonial {
+    quote: string;
+    name: string;
+    location: string;
+}
