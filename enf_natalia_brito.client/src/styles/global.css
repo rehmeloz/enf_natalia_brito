@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+    scroll-behavior: smooth;
+}
+
 @theme {
     --color-brand-text: #997470; /* rosa escuro - textos de destaque, ícones */
     --color-brand-muted: #c59e9b; /* rosa médio - textos secundários, descrições */
