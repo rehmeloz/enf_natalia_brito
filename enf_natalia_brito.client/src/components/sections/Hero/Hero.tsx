@@ -2,8 +2,8 @@ import { WHATSAPP_LINK } from "../../../constants/links";
 
 function Hero() {
     return (
-        <section className="py-20 bg-brand-background">
-            <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+        <section className="bg-brand-bg">
+            <div className="max-w-6xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
 
                 {/* Coluna de texto */}
                 <div>
@@ -11,7 +11,7 @@ function Hero() {
                         Enfermeira Especialista · Sorocaba-SP
                     </p>
 
-                    <h1 className="font-serif text-5xl md:text-6xl text-brand-wine leading-tight mb-6">
+                    <h1 className="font-serif text-3xl sm:text-4xl md:text-6xl text-brand-wine leading-tight mb-6">
                         Cuidado, técnica e{" "}
                         <span className="text-brand-muted">acolhimento</span> em cada
                         atendimento.
@@ -45,14 +45,14 @@ function Hero() {
                 </div>
 
                 <div className="relative flex justify-end">
-                    <div className="aspect-[4/5] w-100 rounded-3xl bg-brand-muted/30 flex items-center justify-center">
+                    <div className="aspect-[4/5] w-full rounded-3xl bg-brand-muted/30 flex items-center justify-center">
                         <span className="font-sans text-sm text-brand-text/60">
                             [ Foto aqui ]
                         </span>
                     </div>
 
                     {/* Card flutuante na foto */}
-                    <div className="absolute bottom-6 left-40 bg-white rounded-xl shadow-lg px-5 py-4 max-w-[220px]">
+                    <div className="absolute bottom-6 left-6 bg-white rounded-xl shadow-lg px-5 py-4 max-w-[220px]">
                         <p className="font-sans text-[11px] font-semibold text-brand-wine uppercase tracking-wide mb-1">
                             Clínica Certificada
                         </p>
