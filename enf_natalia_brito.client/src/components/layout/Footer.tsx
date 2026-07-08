@@ -29,19 +29,19 @@ function Footer() {
 
                 <a
                     href={INSTAGRAM_LINK}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Instagram"
-                    className="w-9 h-9 rounded-full bg-white flex items-center justify-center text-brand-wine hover:bg-brand-wine hover:text-white transition-colors">
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     aria-label="Instagram"
+                     className="w-9 h-9 rounded-full bg-brand-wine flex items-center justify-center text-white hover:opacity-80 transition-opacity">
                     <Camera className="w-4 h-4" />
                 </a>
 
                 <a
-                href={WHATSAPP_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="WhatsApp"
-                className="w-9 h-9 rounded-full bg-white flex items-center justify-center text-brand-wine hover:bg-brand-wine hover:text-white transition-colors">
+                    href={WHATSAPP_LINK}
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     aria-label="WhatsApp"
+                     className="w-9 h-9 rounded-full bg-brand-wine flex items-center justify-center text-white hover:opacity-80 transition-opacity">
                 <MessageCircle className="w-4 h-4" />
                     </a>
 
