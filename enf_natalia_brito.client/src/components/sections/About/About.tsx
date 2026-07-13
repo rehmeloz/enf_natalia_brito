@@ -9,7 +9,7 @@ const CREDENTIALS = [
 
 function About() {
     return (
-        <section id="sobre" className="bg-brand-bg">
+        <section id="sobre" className="bg-white">
             <div className="max-w-6xl mx-auto px-6 py-20">
                 <div className="bg-brand-text rounded-3xl p-8 md:p-12 grid md:grid-cols-[280px_1fr] gap-10 items-center">
                     {/* Foto */}

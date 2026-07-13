@@ -3,9 +3,9 @@ import { MessageCircle } from "lucide-react";
 
 function ContactCTA() {
     return (
-        <section id="contato" className="bg-brand-bg">
+        <section id="contato" className="bg-white">
             <div className="max-w-3xl mx-auto px-6 py-20">
-                <div className="bg-white rounded-3xl p-10 md:p-14 text-center shadow-sm">
+                <div className="bg-brand-bg rounded-3xl p-10 md:p-14 text-center shadow-sm">
                     <h2 className="font-serif text-3xl md:text-4xl text-brand-text mb-4">
                         Vamos conversar sobre o seu atendimento?
                     </h2>

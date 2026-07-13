@@ -2,7 +2,7 @@ import type { Testimonial } from "../../../types";
 
 function TestimonialCard({ quote, name, location }: Testimonial) {
     return (
-        <div className="bg-brand-bg rounded-2xl p-6">
+        <div className="bg-white rounded-2xl p-6">
             <p className="font-serif italic font-semibold text-brand-text leading-relaxed mb-4">
                 "{quote}"
             </p>
