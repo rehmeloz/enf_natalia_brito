@@ -11,7 +11,7 @@ function Hero() {
                         Enfermeira Especialista · Sorocaba-SP
                     </p>
 
-                    <h1 className="font-serif text-3xl sm:text-4xl md:text-6xl text-brand-wine leading-tight mb-6">
+                    <h1 className="font-serif text-3xl sm:text-4xl md:text-6xl text-brand-text leading-tight mb-6">
                         Cuidado, técnica e{" "}
                         <span className="text-brand-muted">acolhimento</span> em cada
                         atendimento.
@@ -28,13 +28,13 @@ function Hero() {
                             href={WHATSAPP_LINK}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-brand-wine text-white font-sans font-semibold text-sm px-6 py-3.5 rounded-full hover:opacity-90 transition-opacity shadow-md"
+                            className="bg-brand-text text-white font-sans font-semibold text-sm px-6 py-3.5 rounded-full hover:opacity-90 transition-opacity shadow-md"
                         >
                             Agendar horário
                         </a>
 
                         <div>
-                            <p className="font-serif text-2xl text-brand-wine">
+                            <p className="font-serif text-2xl text-brand-text">
                                 +2.000
                             </p>
                             <p className="font-sans text-[11px] text-brand-text uppercase tracking-wide">

@@ -6,7 +6,7 @@ function ContactCTA() {
         <section id="contato" className="bg-brand-bg">
             <div className="max-w-3xl mx-auto px-6 py-20">
                 <div className="bg-white rounded-3xl p-10 md:p-14 text-center shadow-sm">
-                    <h2 className="font-serif text-3xl md:text-4xl text-brand-wine mb-4">
+                    <h2 className="font-serif text-3xl md:text-4xl text-brand-text mb-4">
                         Vamos conversar sobre o seu atendimento?
                     </h2>
 
@@ -19,7 +19,7 @@ function ContactCTA() {
                     href={WHATSAPP_LINK}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-brand-wine text-white font-sans font-semibold text-sm px-7 py-3.5 rounded-full hover:opacity-90 transition-opacity shadow-md">
+                    className="inline-flex items-center gap-2 bg-brand-text text-white font-sans font-semibold text-sm px-7 py-3.5 rounded-full hover:opacity-90 transition-opacity shadow-md">
                         <MessageCircle className="w-4 h-4" />
                         Falar pelo WhatsApp
                 </a>

@@ -5,10 +5,9 @@ html {
 }
 
 @theme {
-    --color-brand-text: #997470; /* rosa escuro - textos de destaque, ícones */
+    --color-brand-text: #6a5038; /* rosa escuro - textos de destaque, ícones, botões */
     --color-brand-muted: #c59e9b; /* rosa médio - textos secundários, descrições */
     --color-brand-bg: #f7ece3; /* rosa clarinho - fundo geral da página */
-    --color-brand-wine: #784d4a; /* rosa quase vinho - card "Sobre mim", botões primários */
 
     --font-serif: "Playfair Display", serif;
     --font-sans: "Lato", sans-serif;

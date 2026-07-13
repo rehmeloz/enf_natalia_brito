@@ -9,7 +9,7 @@ function Services() {
                     <span className="font-sans text-xs font-semibold text-brand-text uppercase tracking-widest">
                         O que eu faço
                     </span>
-                    <h2 className="underline underline-offset-wine font-serif text-3xl md:text-4xl text-brand-wine mt-2">
+                    <h2 className="underline underline-offset-text font-serif text-3xl md:text-4xl text-brand-text mt-2">
                         Serviços especializados
                     </h2>
                 </div>

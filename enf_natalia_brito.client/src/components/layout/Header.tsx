@@ -16,7 +16,7 @@ function Header() {
         <header className="bg-brand-bg sticky top-0 z-50">
             <div className="max-w-7xl mx-auto flex items-center justify-between px-6 md:px-10 py-4 md:py-6">
                 <a href="#">
-                    <h2 className="text-2xl md:text-4xl italic font-serif text-brand-muted hover:text-brand-wine transition-colors">
+                    <h2 className="text-2xl md:text-4xl italic font-serif text-brand-muted hover:text-brand-text transition-colors">
                         Enf. Natália Brito
                     </h2>
                 </a>
@@ -27,7 +27,7 @@ function Header() {
                         <a
                             key={item.href}
                             href={item.href}
-                            className="font-sans font-semibold text-sm text-brand-wine hover:text-brand-muted transition-colors"
+                            className="font-sans font-semibold text-sm text-brand-text hover:text-brand-muted transition-colors"
                         >
                             {item.label}
                         </a>
@@ -48,7 +48,7 @@ function Header() {
                 <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                     aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
-                    className="md:hidden text-brand-wine"
+                    className="md:hidden text-brand-text"
                 >
                     {isMenuOpen ? (
                         <X className="w-7 h-7" />
@@ -66,7 +66,7 @@ function Header() {
                             key={item.href}
                             href={item.href}
                             onClick={() => setIsMenuOpen(false)}
-                            className="font-sans font-semibold text-sm text-brand-wine"
+                            className="font-sans font-semibold text-sm text-brand-text"
                         >
                             {item.label}
                         </a>

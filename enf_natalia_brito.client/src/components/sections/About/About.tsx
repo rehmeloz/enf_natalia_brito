@@ -11,7 +11,7 @@ function About() {
     return (
         <section id="sobre" className="bg-brand-bg">
             <div className="max-w-6xl mx-auto px-6 py-20">
-                <div className="bg-brand-wine rounded-3xl p-8 md:p-12 grid md:grid-cols-[280px_1fr] gap-10 items-center">
+                <div className="bg-brand-text rounded-3xl p-8 md:p-12 grid md:grid-cols-[280px_1fr] gap-10 items-center">
                     {/* Foto */}
                     <div className="aspect-[4/5] rounded-2xl bg-white/10 flex items-center justify-center">
                         <span className="font-sans text-sm text-white/50">

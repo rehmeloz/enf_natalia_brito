@@ -9,7 +9,7 @@ function Testimonials() {
                     <span className="font-sans text-xs font-semibold text-brand-text uppercase tracking-widest">
                         Depoimentos
                     </span>
-                    <h2 className="font-serif text-3xl md:text-4xl text-brand-wine mt-2">
+                    <h2 className="font-serif text-3xl md:text-4xl text-brand-text mt-2">
                         Quem confia no meu trabalho
                     </h2>
                 </div>

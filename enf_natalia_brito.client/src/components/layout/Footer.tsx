@@ -10,7 +10,7 @@ function Footer() {
         <footer className="bg-white border-t border-brand-muted/20">
             <div className="max-w-6xl mx-auto px-6 py-14 flex flex-col md:flex-row md:items-end md:justify-between gap-8">
                 <div>
-                    <h3 className="font-serif text-4xl text-brand-wine mb-3">
+                    <h3 className="font-serif text-4xl text-brand-text mb-3">
                         Onde me encontrar
                     </h3>
 
@@ -19,7 +19,7 @@ function Footer() {
                         para o conforto da sua família.
                     </p>
 
-                    <p className="font-sans text-md font-semibold text-brand-wine mb-1">
+                    <p className="font-sans text-md font-semibold text-brand-text mb-1">
                         Sorocaba e região — SP
                     </p>
                     <p className="font-sans text-md text-brand-text">{WHATSAPP_DISPLAY}</p>
@@ -32,7 +32,7 @@ function Footer() {
                      target="_blank"
                      rel="noopener noreferrer"
                      aria-label="Instagram"
-                     className="w-9 h-9 rounded-full bg-brand-wine flex items-center justify-center text-white hover:opacity-80 transition-opacity">
+                     className="w-9 h-9 rounded-full bg-brand-text flex items-center justify-center text-white hover:opacity-80 transition-opacity">
                     <Camera className="w-4 h-4" />
                 </a>
 
@@ -41,7 +41,7 @@ function Footer() {
                      target="_blank"
                      rel="noopener noreferrer"
                      aria-label="WhatsApp"
-                     className="w-9 h-9 rounded-full bg-brand-wine flex items-center justify-center text-white hover:opacity-80 transition-opacity">
+                     className="w-9 h-9 rounded-full bg-brand-text flex items-center justify-center text-white hover:opacity-80 transition-opacity">
                 <MessageCircle className="w-4 h-4" />
                     </a>
 
