@@ -9,6 +9,6 @@ html {
     --color-brand-muted: #c59e9b; /* rosa médio - textos secundários, descrições */
     --color-brand-bg: #f7ece3; /* rosa clarinho - fundo geral da página */
 
-    --font-serif: "Playfair Display", serif;
-    --font-sans: "Lato", sans-serif;
+    --font-serif: "Quicksand", sans-serif;
+    --font-sans: "Montserrat", sans-serif;
 }
