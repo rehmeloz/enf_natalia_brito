@@ -6,9 +6,9 @@ SPA informativo para empreendedora de negócio local (Enfermagem & Estética)
 
 ### FrontEnd
 - **TypeScript** — Linguagem principal do FrontEnd
-- **JavaScript** - Linguagem secundária do FrontEnd
-- **React** - Biblioteca JavaScript utilizada na montagem de interfaces de usuário (UI)
-- **Tailwind** - Framework CSS utilizado para estilização
+- **JavaScript** — Linguagem secundária do FrontEnd
+- **React** — Biblioteca JavaScript utilizada na montagem de interfaces de usuário (UI)
+- **Tailwind** — Framework CSS utilizado para estilização
 
 
 ## ✨ Funcionalidades
