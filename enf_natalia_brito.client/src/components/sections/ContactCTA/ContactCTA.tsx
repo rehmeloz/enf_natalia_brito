@@ -1,5 +1,5 @@
 import { WHATSAPP_LINK } from "../../../constants/links";
-import { MessageCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 function ContactCTA() {
     return (
@@ -20,7 +20,7 @@ function ContactCTA() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-brand-text text-white font-sans font-semibold text-sm px-7 py-3.5 rounded-full hover:opacity-90 transition-opacity shadow-md">
-                        <MessageCircle className="w-4 h-4" />
+                        <FaWhatsapp className="w-4 h-4" />
                         Falar pelo WhatsApp
                 </a>
             </div>

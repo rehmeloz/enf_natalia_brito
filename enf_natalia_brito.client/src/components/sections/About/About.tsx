@@ -1,5 +1,6 @@
 import { CheckCircle2 } from "lucide-react";
 import { INSTAGRAM_LINK } from "../../../constants/links";
+import { FaInstagram } from "react-icons/fa";
 
 const CREDENTIALS = [
     "Enfermeira graduada e especializada",
@@ -53,7 +54,8 @@ function About() {
                             href={INSTAGRAM_LINK}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-block border border-white/40 text-white font-sans font-semibold text-xs uppercase tracking-wide px-6 py-3 rounded-full hover:bg-white/10 transition-colors shadow-md">
+                            className="inline-flex items-center gap-2 border border-white/40 text-white font-sans font-semibold text-xs uppercase tracking-wide px-6 py-3 rounded-full hover:bg-white/10 transition-colors shadow-md">
+                            <FaInstagram className="w-4 h-4" />
                             Conhecer minha trajetória
                         </a>                  
                 </div>
