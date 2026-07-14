@@ -5,9 +5,9 @@ html {
 }
 
 @theme {
-    --color-brand-text: #6a5038; /* rosa escuro - textos de destaque, Ìcones, botıes */
-    --color-brand-muted: #c59e9b; /* rosa mÈdio - textos secund·rios, descriÁıes */
-    --color-brand-bg: #f7ece3; /* rosa clarinho - fundo geral da p·gina */
+    --color-brand-text: #6a5038; /* rosa escuro - textos de destaque, √≠cones, bot√µes */
+    --color-brand-muted: #c59e9b; /* rosa m√©dio - textos secund√°rios, descri√ß√µes */
+    --color-brand-bg: #f7ece3; /* rosa clarinho - fundo geral da p√°gina */
 
     --font-serif: "Quicksand", sans-serif;
     --font-sans: "Montserrat", sans-serif;
